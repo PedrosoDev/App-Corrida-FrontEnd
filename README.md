@@ -28,4 +28,5 @@
    <br>
 7. Pronto Agora é só CODAR 💻!
    <br>
-   ![gif](https://tenor.com/view/programmer-programming-computer-typing-gif-7603564.gif)
+   ![programmer-programming](https://user-images.githubusercontent.com/67286124/179862662-38476cfd-b985-4efc-94d9-f64bfe7a90b8.gif)
+
