@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  background: lightcyan;
+  border-radius: 25px;
+  padding: 16px 24px;
+  text-decoration: none;
+  color: black;
+
+  transition: 0.3s;
+
+  &:hover {
+    background: cyan;
+  }
+}

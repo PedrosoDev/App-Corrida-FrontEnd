@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  devcontainer:
+    container_name: devcontainer
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  node:
+    image: node:16-alpine
+    container_name: front_node
+    working_dir: /var/front
+    command: sh -c "npm install && npm run dev"
+    ports:
+      - 8080:1234
+    volumes:
+      - .:/var/front
